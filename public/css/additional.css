@@ -1,0 +1,491 @@
+#toast-container{
+    z-index: 999999999999999;
+}
+#toast-container #toast-message{
+  background-color: #000000 !important;
+    color: #fff !important;
+    border-radius: 5px !important;
+    font-size: 13px !important;
+    font-family: 'Montserrat' !important;
+}
+
+.loader {
+  border: 2px solid #dc3545;
+  border-radius: 50%;
+  border-top: 2px solid #f8f9fa;
+  width: 20px;
+  height: 20px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+  }
+  .disPer{
+    text-transform: uppercase;
+    color: crimson;
+    font-size: 12px;
+  }
+
+  .clearFilterMbtn{
+    background: transparent;
+    border: 0px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #CA4D6A;
+  }
+  .mfilterModal{
+    display: flex;
+    align-items: baseline;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+  .check_add_3{
+    border-color: #c7c7c7;
+    margin-top: 10px;
+    position: relative;
+  }
+  .check_add_3.selected{
+    border-color: #009A2D;
+  }
+
+  .check_add_3.checkout{
+    cursor: pointer;
+    min-height: 200px;
+  }
+
+  .check_add_3.selected .check_main_3{
+    border-top-color: #009A2D;
+  }
+
+
+  .control-group {
+    margin: 6px 0px 6px 0px;
+}
+
+  .addAddressButton{
+    font-size: 12px;
+    font-family: 'Montserrat';
+    border: 1px solid #D8D8D8;
+    background: transparent;
+    padding: 15px 65px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-top: 10px;
+  }
+
+  .smalBtn{
+    border: 0px solid #ccc;
+    background: transparent;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .check_add_3.selected .defaultAddress{
+    border: 1px solid #8BC34A;
+    background-color: #8BC34A;
+  }
+
+  .control-group .control{
+    background: #fff;
+  border: 1px solid #e0e0e0;
+  box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.07);
+  font-family: inherit;
+  font-size: 1em;
+  line-height: 1.45;
+  outline: none;
+  padding: 0.6em 1.45em 0.7em;
+  -webkit-transition: .18s ease-out;
+  -moz-transition: .18s ease-out;
+  -o-transition: .18s ease-out;
+  transition: .18s ease-out;
+  width: 100%;
+  text-transform: capitalize;
+  }
+
+  .control-group .control:hover {
+    box-shadow: inset 1px 2px 8px rgba(0, 0, 0, 0.02);
+  }
+
+  .control-group .control:focus {
+    border: 1px solid #B8B6B6;
+    box-shadow: inset 1px 2px 4px rgba(0, 0, 0, 0.01), 0px 0px 8px rgba(0, 0, 0, 0.2);
+  }
+  .control-group .control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #a9a2a2;
+    opacity: 1; /* Firefox */
+  }
+  
+  .control-group .control::-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #a9a2a2;
+  }
+  
+  .control-group .control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #a9a2a2;
+  }
+
+  .selectedAdd{
+    position: relative;
+  }
+
+  button.changeAddressBtn {
+    border: 1px solid #000;
+    background: #000;
+    padding: 10px 15px 10px 15px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.selectedAdd, .blockBorder{
+    padding: 15px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.selectedAdd p span{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.selectedAdd p, .selectedAdd h5{
+  font-size: 13px;
+  color: inherit;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.seperator{
+  margin-left: -14px;
+    width: 106%;
+}
+.p0{
+  padding: 0px !important;
+}
+
+.paymentMethod {
+  border: 1px solid #e0e0e0;
+  margin: 15px 0px;
+  background: #fff;
+  padding: 20px 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 5px;
+}
+span.shipingCost {
+  margin-left: 10px;
+  font-size: 13px;
+  font-weight: 700;
+}
+span.eat {
+  margin-left: 10px;
+  font-size: 13px;
+}
+.catImage{
+  cursor: pointer;
+}
+.filtersMobile button.nav-link{
+  background-color: transparent;
+  width: 100%;
+  text-align: left;
+}
+.relativeProducts .item a div{
+  width: 100%;
+}
+.sub-menu.active{
+  display: block !important;
+}
+.divRegistration{
+  width: 80%;
+  margin: 0 auto;
+}
+.emptyCart{
+  text-align: center;
+  margin: 50px auto;
+}
+
+.emptyCart h1{
+  font-size: 20px;
+    margin-top: 20px;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.emptyCart p{
+  font-size: 14px;
+    margin-bottom: 20px;
+    color: #878787;
+}
+.emptyCart a{
+  background: #917343;
+    border: 1px solid #917343;
+    padding: 5px 15px 5px 15px;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 3px;
+    margin-top: 18px;
+    display: block;
+    width: 115px;
+    margin: 0 auto;
+}
+.priceFilterModal ul div input{
+  width: auto;
+}
+.loadMore{
+  width: auto !important;
+    margin: 0 auto;
+    padding: 7px 20px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+.appliedFilters{
+  display: block;
+  align-items: center;
+  padding: 0px 0px;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-top: 5px
+}
+.appliedFilters .filter{
+  color: #fff;
+    display: inline-block;
+    align-items: center;
+    background: #BE8F45;
+    padding: 2px 5px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.appliedFilters .filter button{
+  background: #fff;
+    border: 0px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    font-weight: 500;
+}
+#product_slide .owl-dots{
+  display: flex !important;
+  justify-content: center;
+}
+#product_slide .owl-dot span {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background: #fff;
+  border-radius: 50%;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+#product_slide .owl-dot.active span{
+  background-color: #181818;
+}
+.or_placed{
+  position: relative;
+}
+.couponApplied{
+  display: flex;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+.couponApplied .text{
+  flex-grow: 1;
+}
+.couponApplied .text p{
+    font-size: 11px;
+    padding: 0px;
+    line-height: 20px;
+}
+.couponApplied .text p:first-child{
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.couponApplied .text p:last-child{
+  color: #aa8344;
+  font-size: 12px;
+}
+.couponApplied button{
+  background: transparent;
+    border: 2px solid #aa8344;
+    border-radius: 4px;
+    padding: 4px 18px;
+    color: #aa8344;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.couponDiscountP{
+  font-size: 12px !important;
+  color: #aa8344;
+}
+.checkoutBtn{
+  border: 1px solid #6c757d;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 3px;
+    background: #6c757d;
+    color: #fff;
+}
+.check_add_3{
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.addressOne{
+  float: none;
+  display: table-cell;
+  vertical-align: top;
+}
+.tabcontent{
+  position: unset;
+  overflow: unset;
+  height: unset;
+  max-height: unset;
+}
+
+@media only screen and (max-width:767px) {
+  .accountTabs{
+    display: none;
+  }
+}
+.mrg_12{
+  margin: 0px;
+}
+.main_inner_check{
+  position: relative;
+}
+.check_dis{
+  float: unset;
+}
+.orderProduct p{
+  font-size: 12px;
+  margin-bottom: 0px;
+  font-family: 'Montserrat';
+  line-height: 20px;
+}
+.addressEdit {
+  border: 2px solid #cf9f44;
+  background: transparent;
+  border-radius: 3px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #cf9f44;
+}
+.addressDelete {
+  border: 2px solid #cf9f44;
+  background: transparent;
+  border-radius: 3px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #cf9f44;
+} 
+.w100{
+  width: 100% !important;
+}
+.cartButtonProduct{
+  display: flex;
+  align-items: end;
+  margin-bottom: 50px;
+}
+.deliveryErr{
+  padding: 7px;
+    /* background: burlywood; */
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 0 0 0 1px #dc3545;
+    color: #dc3545 !important;
+    margin-top: 16px;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0px;
+    text-transform: unset !important;
+}
+
+.sortDesktop{
+  border-top: 1px solid rgba(0,0,0,.1);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    background-color: #fff;
+}
+
+.btnFilter{
+  background: transparent;
+    color: #000;
+    border: 0px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: inherit;
+}
+.btnFilter:hover{
+  background: transparent !important;
+  color: #000 !important;
+}
+.sortDesktop .btn-group{
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.sortDesktop .btn-group::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.outerDot{
+  display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #8d8d8d;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+}
+.outerDot.active{
+  border: 2px solid #28a745 !important;
+}
+footer{
+  margin-top: 20px;
+}
+.outerDot .innerDot{
+  display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.outerDot .innerDot.active{
+  border: 2px solid #28a745 !important;
+  background-color: #28a745 !important;
+}
