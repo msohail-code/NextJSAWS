@@ -1,0 +1,260 @@
+{
+  "./dev/noop": [
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/21.js"
+    }
+  ],
+  "./en/browsing": [
+    {
+      "id": "./locales/en/browsing.json",
+      "file": "static/chunks/0.js"
+    }
+  ],
+  "./en/browsing.json": [
+    {
+      "id": "./locales/en/browsing.json",
+      "file": "static/chunks/0.js"
+    }
+  ],
+  "./en/cart": [
+    {
+      "id": "./locales/en/cart.json",
+      "file": "static/chunks/1.js"
+    }
+  ],
+  "./en/cart.json": [
+    {
+      "id": "./locales/en/cart.json",
+      "file": "static/chunks/1.js"
+    }
+  ],
+  "./en/common": [
+    {
+      "id": "./locales/en/common.json",
+      "file": "static/chunks/2.js"
+    }
+  ],
+  "./en/common.json": [
+    {
+      "id": "./locales/en/common.json",
+      "file": "static/chunks/2.js"
+    }
+  ],
+  "./en/contact": [
+    {
+      "id": "./locales/en/contact.json",
+      "file": "static/chunks/3.js"
+    }
+  ],
+  "./en/contact.json": [
+    {
+      "id": "./locales/en/contact.json",
+      "file": "static/chunks/3.js"
+    }
+  ],
+  "./en/home": [
+    {
+      "id": "./locales/en/home.json",
+      "file": "static/chunks/4.js"
+    }
+  ],
+  "./en/home.json": [
+    {
+      "id": "./locales/en/home.json",
+      "file": "static/chunks/4.js"
+    }
+  ],
+  "./en/product": [
+    {
+      "id": "./locales/en/product.json",
+      "file": "static/chunks/5.js"
+    }
+  ],
+  "./en/product.json": [
+    {
+      "id": "./locales/en/product.json",
+      "file": "static/chunks/5.js"
+    }
+  ],
+  "./en/products": [
+    {
+      "id": "./locales/en/products.json",
+      "file": "static/chunks/6.js"
+    }
+  ],
+  "./en/products.json": [
+    {
+      "id": "./locales/en/products.json",
+      "file": "static/chunks/6.js"
+    }
+  ],
+  "./th/browsing": [
+    {
+      "id": "./locales/th/browsing.json",
+      "file": "static/chunks/7.js"
+    }
+  ],
+  "./th/browsing.json": [
+    {
+      "id": "./locales/th/browsing.json",
+      "file": "static/chunks/7.js"
+    }
+  ],
+  "./th/cart": [
+    {
+      "id": "./locales/th/cart.json",
+      "file": "static/chunks/8.js"
+    }
+  ],
+  "./th/cart.json": [
+    {
+      "id": "./locales/th/cart.json",
+      "file": "static/chunks/8.js"
+    }
+  ],
+  "./th/common": [
+    {
+      "id": "./locales/th/common.json",
+      "file": "static/chunks/9.js"
+    }
+  ],
+  "./th/common.json": [
+    {
+      "id": "./locales/th/common.json",
+      "file": "static/chunks/9.js"
+    }
+  ],
+  "./th/contact": [
+    {
+      "id": "./locales/th/contact.json",
+      "file": "static/chunks/10.js"
+    }
+  ],
+  "./th/contact.json": [
+    {
+      "id": "./locales/th/contact.json",
+      "file": "static/chunks/10.js"
+    }
+  ],
+  "./th/home": [
+    {
+      "id": "./locales/th/home.json",
+      "file": "static/chunks/11.js"
+    }
+  ],
+  "./th/home.json": [
+    {
+      "id": "./locales/th/home.json",
+      "file": "static/chunks/11.js"
+    }
+  ],
+  "./th/product": [
+    {
+      "id": "./locales/th/product.json",
+      "file": "static/chunks/12.js"
+    }
+  ],
+  "./th/product.json": [
+    {
+      "id": "./locales/th/product.json",
+      "file": "static/chunks/12.js"
+    }
+  ],
+  "./th/products": [
+    {
+      "id": "./locales/th/products.json",
+      "file": "static/chunks/13.js"
+    }
+  ],
+  "./th/products.json": [
+    {
+      "id": "./locales/th/products.json",
+      "file": "static/chunks/13.js"
+    }
+  ],
+  "./vi/browsing": [
+    {
+      "id": "./locales/vi/browsing.json",
+      "file": "static/chunks/14.js"
+    }
+  ],
+  "./vi/browsing.json": [
+    {
+      "id": "./locales/vi/browsing.json",
+      "file": "static/chunks/14.js"
+    }
+  ],
+  "./vi/cart": [
+    {
+      "id": "./locales/vi/cart.json",
+      "file": "static/chunks/15.js"
+    }
+  ],
+  "./vi/cart.json": [
+    {
+      "id": "./locales/vi/cart.json",
+      "file": "static/chunks/15.js"
+    }
+  ],
+  "./vi/common": [
+    {
+      "id": "./locales/vi/common.json",
+      "file": "static/chunks/16.js"
+    }
+  ],
+  "./vi/common.json": [
+    {
+      "id": "./locales/vi/common.json",
+      "file": "static/chunks/16.js"
+    }
+  ],
+  "./vi/contact": [
+    {
+      "id": "./locales/vi/contact.json",
+      "file": "static/chunks/17.js"
+    }
+  ],
+  "./vi/contact.json": [
+    {
+      "id": "./locales/vi/contact.json",
+      "file": "static/chunks/17.js"
+    }
+  ],
+  "./vi/home": [
+    {
+      "id": "./locales/vi/home.json",
+      "file": "static/chunks/18.js"
+    }
+  ],
+  "./vi/home.json": [
+    {
+      "id": "./locales/vi/home.json",
+      "file": "static/chunks/18.js"
+    }
+  ],
+  "./vi/product": [
+    {
+      "id": "./locales/vi/product.json",
+      "file": "static/chunks/19.js"
+    }
+  ],
+  "./vi/product.json": [
+    {
+      "id": "./locales/vi/product.json",
+      "file": "static/chunks/19.js"
+    }
+  ],
+  "./vi/products": [
+    {
+      "id": "./locales/vi/products.json",
+      "file": "static/chunks/20.js"
+    }
+  ],
+  "./vi/products.json": [
+    {
+      "id": "./locales/vi/products.json",
+      "file": "static/chunks/20.js"
+    }
+  ]
+}
